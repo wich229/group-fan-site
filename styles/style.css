@@ -35,7 +35,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(255, 173, 50);
+    color: #E57D26;
     font-size: 1.3rem;
     transition: all 0.25s ease;
 }
@@ -55,7 +55,7 @@ section {
 }
 
 footer {
-    background-color: #0f8944;
+    background-color: #AFBB25;
     display: flex;
     flex-direction: column;
     align-items: center;
