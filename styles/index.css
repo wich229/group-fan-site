@@ -12,15 +12,25 @@
     justify-content:space-around;
     margin: 0 auto;
     padding: 5px 10px;
-    color: #00539f;
-    font-family: "Trebuchet MS", Verdana, sans-serif;
-    
 }
 
 .paras{
+    padding-left: 15%;
+    padding-right: 15%;
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 2.0;
     justify-content:center;
     align-items:center;
+    color: #00539f;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    text-align:justify;
 }
 
+p::first-letter{
+    font-size: 35px;
+    line-height: 1.0;
+}
+
+p:focus{
+    background-color: rgb(255, 240, 252);
+}
