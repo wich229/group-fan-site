@@ -1,36 +1,36 @@
 .content {
-    margin:0;
-    justify-content:space-evenly;
-    align-items:center;
-    display:flex;
-    flex-direction: column;
-    background-color: antiquewhite;
+  margin: 0;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* background-color: antiquewhite; */
 }
 
 .sections {
-    align-items: center;
-    justify-content:space-around;
-    margin: 0 auto;
-    padding: 5px 10px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 5px 10px;
 }
 
-.paras{
-    padding-left: 15%;
-    padding-right: 15%;
-    font-size: 1rem;
-    line-height: 2.0;
-    justify-content:center;
-    align-items:center;
-    color: #00539f;
-    font-family: "Trebuchet MS", Verdana, sans-serif;
-    text-align:justify;
+.paras {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1rem;
+  line-height: 2;
+  justify-content: center;
+  align-items: center;
+  color: #00539f;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  text-align: justify;
 }
 
-p::first-letter{
-    font-size: 35px;
-    line-height: 1.0;
+p::first-letter {
+  font-size: 35px;
+  line-height: 1;
 }
 
-p:focus{
-    background-color: rgb(255, 240, 252);
+p:focus {
+  background-color: rgb(255, 240, 252);
 }

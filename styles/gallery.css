@@ -45,8 +45,9 @@ nav ul li a {
   font-size: 1.5rem;
 }
 
+/* overwrite */
 nav ul li a:hover {
-  color: #e57d26;
+  color: #8c3cab;
   font-size: 1.4rem;
   transition: all 0.25s ease;
 }
